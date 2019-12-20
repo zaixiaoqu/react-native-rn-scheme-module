@@ -1,0 +1,29 @@
+{
+  "name": "react-native-rn-scheme-module",
+  "title": "React Native 自定义唤醒app协议",
+  "version": "0.0.1",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaixiaoqu/react-native-rn-scheme-module.git",
+    "baseUrl": "https://github.com/zaixiaoqu/react-native-rn-scheme-module"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-rn-scheme-module",
+    "React Native 自定义唤醒app协议"
+  ],
+  "author": {
+    "name": "yusheng",
+    "email": "don@zaixiaoqu.cn"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaixiaoqu/react-native-rn-scheme-module/issues"
+  },
+  "homepage": "https://github.com/zaixiaoqu/react-native-rn-scheme-module.git#readme"
+}
