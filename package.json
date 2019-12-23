@@ -1,7 +1,7 @@
 {
   "name": "react-native-rn-scheme-module",
   "title": "React Native 自定义唤醒app协议",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "TODO",
   "main": "index.js",
   "scripts": {
