@@ -13,6 +13,7 @@ import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
+import java.net.URLDecoder;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -52,6 +53,12 @@ public class RnSchemeModuleModule extends ReactContextBaseJavaModule {
         if (null == queryString) {
             queryString = "";
         }
+        try {
+            encodedPath = URLDecoder.decode(encodedPath, "UTF-8" );
+            queryString = URLDecoder.decode(queryString, "UTF-8" );
+        } catch (Exception e) {
+        }
+
         WritableMap params = Arguments.createMap();
         params.putString("scheme", scheme);
         params.putString("encodedPath", encodedPath);
